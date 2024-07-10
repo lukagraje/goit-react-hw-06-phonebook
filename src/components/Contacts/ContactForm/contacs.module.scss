@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: .75rem;
+    font-size: 1rem;
+    border: 1px solid slategray;
+    width: 250px;
+    background-color:aliceblue;
+
+    input {
+        font-size: inherit;
+        padding: 5px;
+        cursor: text;
+    }
+        button {
+            font-size: inherit;
+            padding: 5px;
+            cursor: pointer;
+        }
+}
+
+.list {
+    font-size: 1.5rem;
+}
