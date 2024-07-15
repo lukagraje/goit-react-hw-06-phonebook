@@ -14,7 +14,7 @@ export default function App() {
 
   useEffect(() => {
     const storedContacts = JSON.parse(localStorage.getItem("contacts"));
-    if (storedContacts.length > 0) {
+    if (storedContacts && storedContacts.length > 0) {
       storedContacts.forEach((contact) => dispatch(addContact(contact)));
     }
   }, [dispatch]);
